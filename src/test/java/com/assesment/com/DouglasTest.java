@@ -124,4 +124,8 @@ public class DouglasTest {
             logger.error("❌ Error applying filter: " + filterType + " -> " + filterValue, e);
         }
     }
+    @Test(priority=4)
+    public void quit() {
+    	driver.quit();
+    }
 }
